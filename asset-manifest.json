@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/forum-master/static/css/main.a0aa8109.css",
+    "main.css": "/forum-master/static/css/main.77aefb95.css",
     "main.js": "/forum-master/static/js/main.09f7a6af.js",
     "static/js/787.504713b2.chunk.js": "/forum-master/static/js/787.504713b2.chunk.js",
     "static/media/communities.png": "/forum-master/static/media/communities.ddf19e9334de517bd026.png",
@@ -14,12 +14,12 @@
     "static/media/person-icon.svg": "/forum-master/static/media/person-icon.5e281f9080a2d3ccb7db58cb19fe2915.svg",
     "static/media/exit-icon.svg": "/forum-master/static/media/exit-icon.62f700eeaa0ff40694cd825f39bdf74b.svg",
     "static/media/upside-down-triangle.svg": "/forum-master/static/media/upside-down-triangle.620c015c0a141852e251edc59ca9e5b6.svg",
-    "main.a0aa8109.css.map": "/forum-master/static/css/main.a0aa8109.css.map",
+    "main.77aefb95.css.map": "/forum-master/static/css/main.77aefb95.css.map",
     "main.09f7a6af.js.map": "/forum-master/static/js/main.09f7a6af.js.map",
     "787.504713b2.chunk.js.map": "/forum-master/static/js/787.504713b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0aa8109.css",
+    "static/css/main.77aefb95.css",
     "static/js/main.09f7a6af.js"
   ]
 }
