@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a71d8c23.css",
+    "main.js": "/static/js/main.63fb88be.js",
+    "static/js/787.7efd31bd.chunk.js": "/static/js/787.7efd31bd.chunk.js",
+    "static/media/communities.png": "/static/media/communities.ddf19e9334de517bd026.png",
+    "static/media/NotoSans-Regular.ttf": "/static/media/NotoSans-Regular.eae34fa8f1e0c4c6d797.ttf",
+    "static/media/ProductSans-Regular.ttf": "/static/media/ProductSans-Regular.2765c69613690b1b9c03.ttf",
+    "static/media/downvote.svg": "/static/media/downvote.af24a85251dd953697fb0ef7fefc9bff.svg",
+    "static/media/upvote.svg": "/static/media/upvote.a178b456fa36312ebd638c9f68b6f7ab.svg",
+    "static/media/information-icon.svg": "/static/media/information-icon.e2d9fb9743ad500ab51b849220577184.svg",
+    "static/media/google-logo.svg": "/static/media/google-logo.c5f20af48e48c8ceb2dc881a3bc511c1.svg",
+    "index.html": "/index.html",
+    "static/media/person-icon.svg": "/static/media/person-icon.5e281f9080a2d3ccb7db58cb19fe2915.svg",
+    "static/media/exit-icon.svg": "/static/media/exit-icon.62f700eeaa0ff40694cd825f39bdf74b.svg",
+    "static/media/upside-down-triangle.svg": "/static/media/upside-down-triangle.620c015c0a141852e251edc59ca9e5b6.svg",
+    "main.a71d8c23.css.map": "/static/css/main.a71d8c23.css.map",
+    "main.63fb88be.js.map": "/static/js/main.63fb88be.js.map",
+    "787.7efd31bd.chunk.js.map": "/static/js/787.7efd31bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a71d8c23.css",
+    "static/js/main.63fb88be.js"
+  ]
+}
