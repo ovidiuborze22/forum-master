@@ -1,10 +1,10 @@
-# Reddit Clone
+# Forum Web Application
 
 ## Description
 
-[App] Creating a near identical clone of the famous social media website, Reddit
+[Web Application] The link to the hosted web application
 
-> See it live on [optimistictrousers.github.io/reddit-clone](https://optimistictrousers.github.io/reddit-clone/)
+> See it live on [ovidiuborze22.github.io/forum-master](https://ovidiuborze22.github.io/forum-master/)
 > Or clone repo, cd into repo, then run "npm run start"
 
 ## Purpose
@@ -15,27 +15,26 @@ Beyond that, other learning outcomes were:
 
 - Design reusable components
 - Creating and deleting data inside of a Firebase Firestore database
-- Allowing the user to authenticate to interact with the application
+- Allowing the user to authenticate to interact with the web application
 - Creating custom hooks
 - Using Redux for state management
 - Typescript for types
 - Using moment.js for Date utilities
 
-
 ## Features
 
 1. Allows users to authenticate
-2. Allows users to create subreddits
+2. Allows users to create subforum
 3. Allows users to create posts
 4. Allows users to filter through posts
 5. Allows users to upvote posts and comments
 6. Allows users to reply to comments
-7. Allows users to search for subreddits
+7. Allows users to search for subforum
 8. Responsive
-9. Subreddit moderators
-10. Subreddit editing
+9. Subforum moderators
+10. Subforum editing
 11. Image upload
-12. User can join subreddits
+12. User can join subforum
 
 ## Development
 
@@ -76,7 +75,7 @@ Beyond that, other learning outcomes were:
 
 ## Areas for Improvement
 
-1. Karma
+1. Questions
 2. Allow users to change profile pictures
 3. Adding more levels
 4. Give the user back their time in seconds with demicals instead of seconds
@@ -86,9 +85,5 @@ Beyond that, other learning outcomes were:
 8. Coins
 9. Pagination and lazy loading
 10. Allow users to filter their content inside their profile
-11. Allow users to search for posts within subreddits
-12. Pinning posts in a subreddit
-
-## Known Bugs
-
-1. Status of "Saved" posts only appears on the post page itself, not when rendered as a post inside of a list of posts
+11. Allow users to search for posts within subforum
+12. Pinning posts in a subforum

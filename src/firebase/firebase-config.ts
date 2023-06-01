@@ -10,32 +10,20 @@ import { getStorage } from "firebase/storage";
 // Your web app's Firebase configuration
 
 const firebaseConfig = {
-  // apiKey: "AIzaSyCLwXf77NuoR0ESLwAAgez_wS_gM8V4J7M",
 
-  // authDomain: "reddit-clone-23782.firebaseapp.com",
+  apiKey: process.env.REACT_APP_API_KEY,
 
-  // projectId: "reddit-clone-23782",
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
 
-  // storageBucket: "reddit-clone-23782.appspot.com",
+  projectId: process.env.REACT_APP_PROJECT_ID,
 
-  // messagingSenderId: "855149209259",
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
 
-  // appId: "1:855149209259:web:cb03f2ae83010e6feab9ee",
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
 
-  // measurementId: "G-9D511367MB",
-  apiKey: "AIzaSyCEQgSH4Vfzmbn6IVFOE5fu5DtH0p3pAZ8",
+  appId: process.env.REACT_APP_APP_ID,
 
-  authDomain: "forum-ovidiu-borze.firebaseapp.com",
-
-  projectId: "forum-ovidiu-borze",
-
-  storageBucket: "forum-ovidiu-borze.appspot.com",
-
-  messagingSenderId: "555287825535",
-
-  appId: "1:555287825535:web:98396be2b79a49d0fcc34a",
-
-  measurementId: "G-71MX5H8V0X"
+  measurementId: process.env.REACT_APP_MEASUREMENT_ID
 
 };
 
