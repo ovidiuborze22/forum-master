@@ -118,7 +118,7 @@ const Navbar: React.FC<Props> = ({toggleDrawer}) => {
           <form onSubmit={submitSearch} styleName="header__search-form">
             <input
               styleName="header__search-input"
-              placeholder="Search Forum ie. (r/dogs)"
+              placeholder="Search Forum ie. (r/COM645)"
               onChange={handleSearchInput}
               value={searchInput}
               pattern="(?:^| )(/?r/[a-z]+)"
