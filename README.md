@@ -110,7 +110,7 @@ Beyond that, other learning outcomes were:
 4. Open Terminal in the root directory and run command: 
    `npm install`-installing all required libraries 
    <br>
-   
+
 5. To start the code use the command:
    `npm run start`- react-scripts start
 
@@ -122,26 +122,27 @@ To create your own firebase project you need to follow next steps:
 
 1. **Step 1**
      - Open [Firebase](https://firebase.google.com/) an create an account it's free
-  ![Create Project Firebase](https://res.cloudinary.com/dqnbdaara/image/upload/v1685915028/Forum/Screenshot_2023-06-04_224229_xwz2cm.png)
-  <br>
+    ![Create Project Firebase](https://res.cloudinary.com/dqnbdaara/image/upload/v1685915028/Forum/Screenshot_2023-06-04_224229_xwz2cm.png)
+
     - Give a project name
     ![Project Name](https://res.cloudinary.com/dqnbdaara/image/upload/v1685915299/Forum/Screenshot_2023-06-04_224615_joygcx.png)
+
     - Select Default Account for Firebase
     ![Default Account](https://res.cloudinary.com/dqnbdaara/image/upload/v1685915502/Forum/Screenshot_2023-06-04_225107_sszxr8.png)
-    <br>
+
     - After creating a project successfully 
       - Configure Authentication for Email and Google
       - Configure Firestore Database
       - Configure Storage
     ![Configure Project](https://res.cloudinary.com/dqnbdaara/image/upload/v1685916055/Forum/Screenshot_2023-06-04_225819_nacusw.png)
-    <br>
+    
       - Register App 
       - Go to Terminal `npm install firebase` 
     ![Register App](https://res.cloudinary.com/dqnbdaara/image/upload/v1685916647/Forum/Screenshot_2023-06-04_230825_erocpm.png) 
 
 <br>
 
-2. **Step 2**
+1. **Step 2**
    - In Firestore are two options: 
      - production mode
      - test mode (development mode)
