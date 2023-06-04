@@ -1,7 +1,7 @@
 {
   "projects": {
-    "default": "reddit-clone-23782",
-    "staging": "reddit-clone-23782"
+    "default": "forum-master",
+    "staging": "forum-master"
   },
   "targets": {},
   "etags": {}
