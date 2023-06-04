@@ -1,4 +1,4 @@
-# Forum Single Page Web Application
+# Forum Single Page Web Application (SPA)
 
 ![Home Page](https://res.cloudinary.com/dqnbdaara/image/upload/v1685912859/Forum/Screenshot_2023-06-04_202334_t1usbv.png)
 
