@@ -1,8 +1,11 @@
-# Forum Web Application
+# Forum Single Page Web Application
 
+![Home Page](https://res.cloudinary.com/dqnbdaara/image/upload/v1685912859/Forum/Screenshot_2023-06-04_202334_t1usbv.png)
 ## Description
 
-[Web Application] The link to the hosted web application
+The Forum Single Page Web Application (SPA) is a dedicated platform designed to facilitate seamless communication, knowledge sharing, and student connectedness within the Solent University community. It provides a user-friendly interface that allows students to ask questions, help each other, and engage in meaningful discussions beyond the confines of the physical campus. The SPA offers features such as creating communities, adding posts, commenting, upvoting/downvoting, and personalized profile pages. It promotes teamwork, encourages social interactions, and saves students time by eliminating the need for lengthy emails or waiting for responses. The Forum SPA enhances student engagement and fosters a collaborative learning environment.
+
+[Forum Web Application] The link to the hosted web application
 
 > See it live on [ovidiuborze22.github.io/forum-master](https://ovidiuborze22.github.io/forum-master/)
 > Or clone repo, cd into repo, then run "npm run start"
@@ -27,14 +30,14 @@ Beyond that, other learning outcomes were:
 2. Allows users to create subforum
 3. Allows users to create posts
 4. Allows users to filter through posts
-5. Allows users to upvote posts and comments
+5. Allows users to upvote/downvote posts and comments
 6. Allows users to reply to comments
 7. Allows users to search for subforum
 8. Responsive
 9. Subforum moderators
 10. Subforum editing
 11. Image upload
-12. User can join subforum
+12. User can join subforum and more
 
 ## Development
 
@@ -77,13 +80,93 @@ Beyond that, other learning outcomes were:
 
 1. Questions
 2. Allow users to change profile pictures
-3. Adding more levels
-4. Give the user back their time in seconds with demicals instead of seconds
-5. Light mode
-6. Trending posts
-7. Awards
-8. Coins
-9. Pagination and lazy loading
-10. Allow users to filter their content inside their profile
-11. Allow users to search for posts within subforum
-12. Pinning posts in a subforum
+3. Give the user back their time in seconds with demicals instead of seconds
+4. Trending posts
+5. Awards
+6. Coins
+7. Pagination and lazy loading
+8. Allow users to filter their content inside their profile
+9. Allow users to search for posts within subforum
+10. Pinning posts in a subforum
+11. Light theme a bit too bright
+12. "Back" button for easier navigation to previous page
+13. More options for customizing the community's appearance
+14. Notification system to alert users when someone replies
+15. More customization options for unique profile page
+16. All Communities page search bar for quick community search
+
+## How to run Forum (SPA)
+
+1. Download zip and unzip folder in Local Machine from GitHub
+   <br>
+2. Git Clone using the link - `git clone https://github.com/ovidiuborze22/forum-master.git`
+   ![Download Folder](https://res.cloudinary.com/dqnbdaara/image/upload/v1685913510/Forum/Screenshot_2023-06-04_221714_wn8ufr.png)
+
+3. Open folder in IDE([VS Code](https://code.visualstudio.com/download) preferable)
+<br>   
+1. Open Terminal in the root directory and run command: 
+   `npm install`-installing all required libraries 
+   <br>
+2. To start the code use the command:
+   `npm run start`- react-scripts start
+
+## Create and connect Firebase Forum (SPA)
+
+For Forum web application, Firebase is already set up and connected.
+
+To create your own firebase project you need to follow next steps:
+
+1. **Step 1**
+     - Open [Firebase](https://firebase.google.com/) an create an account it's free
+  ![Create Project Firebase](https://res.cloudinary.com/dqnbdaara/image/upload/v1685915028/Forum/Screenshot_2023-06-04_224229_xwz2cm.png)
+  <br>
+    - Give a project name
+    ![Project Name](https://res.cloudinary.com/dqnbdaara/image/upload/v1685915299/Forum/Screenshot_2023-06-04_224615_joygcx.png)
+    - Select Default Account for Firebase
+    ![Default Account](https://res.cloudinary.com/dqnbdaara/image/upload/v1685915502/Forum/Screenshot_2023-06-04_225107_sszxr8.png)
+    <br>
+    - After creating a project successfully 
+      - Configure Authentication for Email and Google
+      - Configure Firestore Database
+      - Configure Storage
+    ![](https://res.cloudinary.com/dqnbdaara/image/upload/v1685916055/Forum/Screenshot_2023-06-04_225819_nacusw.png)
+    <br>
+      - Register App 
+      - Go to Terminal `npm install firebase` 
+    ![](https://res.cloudinary.com/dqnbdaara/image/upload/v1685916647/Forum/Screenshot_2023-06-04_230825_erocpm.png) 
+
+<br>
+
+2. **Step 2**
+   - In Firestore are two options: 
+     - production mode
+     - test mode (development mode)
+    ![](https://res.cloudinary.com/dqnbdaara/image/upload/v1685917613/Forum/Screenshot_2023-06-04_232550_umsjjh.png)
+
+<br>
+
+3. **Step 3** 
+  
+  - Change `.env` file by replacing the values in `firebaseConfig()` with the generated once from your firebase project
+  - Make sure to use command `firebase login` in Terminal to connect to Firebase
+
+## How to Deploy Forum (SPA) - GitHub
+
+1. Create a [GitHub](https://github.com/) Repository and commit all code to Github
+   - How to add repository more info [here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/create-a-repo) 
+<br>
+2. In GitHub go to settings and configure the following:
+   - Settings->Pages->Branch->Root->Save
+   ![](https://res.cloudinary.com/dqnbdaara/image/upload/v1685918784/Forum/Screenshot_2023-06-04_234431_ata9zl.png)
+
+<br>
+
+3. In Terminal you have to run the following commands:
+   - `npm run build`
+   - and `npm run deploy`
+<br>
+4. In GitHub go to:
+   - Actions to check the deploying process
+   - If successful will show the generated Link for the hosted app
+  ![](https://res.cloudinary.com/dqnbdaara/image/upload/v1685919374/Forum/Screenshot_2023-06-04_235429_xp4lgp.png)
+
