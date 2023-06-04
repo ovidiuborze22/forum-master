@@ -1,6 +1,7 @@
 # Forum Single Page Web Application
 
 ![Home Page](https://res.cloudinary.com/dqnbdaara/image/upload/v1685912859/Forum/Screenshot_2023-06-04_202334_t1usbv.png)
+
 ## Description
 
 The Forum Single Page Web Application (SPA) is a dedicated platform designed to facilitate seamless communication, knowledge sharing, and student connectedness within the Solent University community. It provides a user-friendly interface that allows students to ask questions, help each other, and engage in meaningful discussions beyond the confines of the physical campus. The SPA offers features such as creating communities, adding posts, commenting, upvoting/downvoting, and personalized profile pages. It promotes teamwork, encourages social interactions, and saves students time by eliminating the need for lengthy emails or waiting for responses. The Forum SPA enhances student engagement and fosters a collaborative learning environment.
@@ -100,14 +101,17 @@ Beyond that, other learning outcomes were:
 1. Download zip and unzip folder in Local Machine from GitHub
    <br>
 2. Git Clone using the link - `git clone https://github.com/ovidiuborze22/forum-master.git`
-   ![Download Folder](https://res.cloudinary.com/dqnbdaara/image/upload/v1685913510/Forum/Screenshot_2023-06-04_221714_wn8ufr.png)
+   
+    ![Download Folder](https://res.cloudinary.com/dqnbdaara/image/upload/v1685913510/Forum/Screenshot_2023-06-04_221714_wn8ufr.png)
 
 3. Open folder in IDE([VS Code](https://code.visualstudio.com/download) preferable)
-<br>   
-1. Open Terminal in the root directory and run command: 
+<br> 
+
+4. Open Terminal in the root directory and run command: 
    `npm install`-installing all required libraries 
    <br>
-2. To start the code use the command:
+   
+5. To start the code use the command:
    `npm run start`- react-scripts start
 
 ## Create and connect Firebase Forum (SPA)
@@ -129,11 +133,11 @@ To create your own firebase project you need to follow next steps:
       - Configure Authentication for Email and Google
       - Configure Firestore Database
       - Configure Storage
-    ![](https://res.cloudinary.com/dqnbdaara/image/upload/v1685916055/Forum/Screenshot_2023-06-04_225819_nacusw.png)
+    ![Configure Project](https://res.cloudinary.com/dqnbdaara/image/upload/v1685916055/Forum/Screenshot_2023-06-04_225819_nacusw.png)
     <br>
       - Register App 
       - Go to Terminal `npm install firebase` 
-    ![](https://res.cloudinary.com/dqnbdaara/image/upload/v1685916647/Forum/Screenshot_2023-06-04_230825_erocpm.png) 
+    ![Register App](https://res.cloudinary.com/dqnbdaara/image/upload/v1685916647/Forum/Screenshot_2023-06-04_230825_erocpm.png) 
 
 <br>
 
@@ -141,7 +145,7 @@ To create your own firebase project you need to follow next steps:
    - In Firestore are two options: 
      - production mode
      - test mode (development mode)
-    ![](https://res.cloudinary.com/dqnbdaara/image/upload/v1685917613/Forum/Screenshot_2023-06-04_232550_umsjjh.png)
+    ![Production/Development mode](https://res.cloudinary.com/dqnbdaara/image/upload/v1685917613/Forum/Screenshot_2023-06-04_232550_umsjjh.png)
 
 <br>
 
@@ -155,9 +159,11 @@ To create your own firebase project you need to follow next steps:
 1. Create a [GitHub](https://github.com/) Repository and commit all code to Github
    - How to add repository more info [here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/create-a-repo) 
 <br>
+
 2. In GitHub go to settings and configure the following:
+   
    - Settings->Pages->Branch->Root->Save
-   ![](https://res.cloudinary.com/dqnbdaara/image/upload/v1685918784/Forum/Screenshot_2023-06-04_234431_ata9zl.png)
+  ![GitHub Settings](https://res.cloudinary.com/dqnbdaara/image/upload/v1685918784/Forum/Screenshot_2023-06-04_234431_ata9zl.png)
 
 <br>
 
@@ -165,8 +171,9 @@ To create your own firebase project you need to follow next steps:
    - `npm run build`
    - and `npm run deploy`
 <br>
+
 4. In GitHub go to:
    - Actions to check the deploying process
    - If successful will show the generated Link for the hosted app
-  ![](https://res.cloudinary.com/dqnbdaara/image/upload/v1685919374/Forum/Screenshot_2023-06-04_235429_xp4lgp.png)
+  ![GitHub Actions](https://res.cloudinary.com/dqnbdaara/image/upload/v1685919374/Forum/Screenshot_2023-06-04_235429_xp4lgp.png)
 
