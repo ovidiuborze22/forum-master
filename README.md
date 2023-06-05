@@ -145,7 +145,7 @@ To create your own firebase project you need to follow next steps:
 1. **Step 2**
    - In Firestore Database and Storage are two options: 
      - production mode - the rules are set up for long run (term)
-     - test mode (development mode)- quick set and after 30 days the rulse must be be set up again
+     - test mode (development mode)- quick set and after 30 days the rules must be be set up again
     ![Production/Development mode](https://res.cloudinary.com/dqnbdaara/image/upload/v1685917613/Forum/Screenshot_2023-06-04_232550_umsjjh.png)
 
 <br>
