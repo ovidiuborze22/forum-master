@@ -111,7 +111,7 @@ Beyond that, other learning outcomes were:
    `npm install`-installing all required libraries 
    <br>
 
-5. To start the code use the command:
+5. To start and run the App use the command:
    `npm run start`- react-scripts start
 
 ## Create and connect Firebase Forum (SPA)
